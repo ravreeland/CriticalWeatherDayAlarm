@@ -1,0 +1,365 @@
+<html>
+<head>
+  <title>NCEP Critical Weather Day Status</title>
+  <meta name="author" content="NCO Web Team">
+  <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+  <link href="/cwi/main.css" type="text/css" rel="stylesheet">
+  <link rel="icon" type="image/ico" href="/cwi/favicon.ico">
+</head>
+<body background="/cwi/background.gif" bgcolor="#ffffff" text="#000000"
+      leftmargin="0" topMargin="0" rightMargin="0"
+      marginheight="0" marginwidth="0">
+  <!-- Begin Header -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%"
+         summary="Table is for layout only.">
+    <tbody>
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr>
+    <td align="right" height="19" background="/cwi/topbanner.jpg">
+      <a href="#contents"><img alt="Skip Navigation Links" 
+         src="/cwi/skipgraphic.gif" width="1" height="1" border="0" /></a>
+      <a href="http://www.weather.gov/"><span class="nwslink">weather.gov</span></a>&nbsp;
+    </td>
+  </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr>
+    <td rowspan="2"><a href="http://www.noaa.gov/">
+      <img alt="NOAA logo - Click to go to the NOAA homepage"
+      src="/cwi/noaaleft.jpg" width="85" height="78" border="0" /></a></td>
+    <td align="left"><img alt="National Weather Service" 
+      src="/cwi/nws_title.jpg" width="500" height="20" border="0" /></td>
+    <td rowspan="2" width="100%" background="/cwi/ncep_bkgrnd.jpg">&nbsp;</td>
+    <td rowspan="2" align="right"><a href="http://www.nws.noaa.gov/">
+      <img alt="NWS logo - Click to go to the NWS homepage" 
+      src="/cwi/nwsright.jpg" width="85" height="78" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><img alt="National Centers for Environmental Prediction"
+        src="/cwi/nco.jpg" width="500" height="58" border="0" /></td><!-- Put your center header image here. -->
+  </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" background="/cwi/navbkgrnd.gif" border="0">
+  <tbody>
+  <tr>
+    <td align="left" valign="top" width="94"><img alt="Navigation Bar Left Cap" src="/cwi/navbarleft.jpg" width="94" height="23" border="0" /></td>
+    <td class="nav" id="menuitem" align="center" width="10%">
+      <a href="/">Home</a></td> <!-- Take us Home -->
+    <td class="nav" id="menuitem" align="right" width="10%">
+      <a href="http://www.weather.gov/pa/">News</a></td>
+    <td class="nav" id="menuitem" align="right" width="19%">
+      <a href="http://weather.gov/organization.php">Organization</a></td>
+    <td class="searchinput" align="right">
+     <form method="get" action="http://search.usa.gov/search" style="margin-bottom:0; margin-top:0;">
+       <label for="Search"><span class="yellow">Search</span>&nbsp;&nbsp;</label>
+       <input type="hidden" name="affiliate" value="nws.noaa.gov" />
+       <input type="hidden" name="v:project" value="firstgov" />
+       <input name="query" type="text" value="" size="20" maxlength="256" id="Search" />
+       <input type="submit" value="Search"  />
+     </form>
+    </td>
+    <td align="right" valign="bottom" width="24"><img src="/cwi/navbarendcap.jpg" alt="Navigation Bar End Cap" width="24" height="23" border="0" /></td>
+  </tr>
+  </tbody>
+</table>
+<!-- Begin code for the navigation strip with links to multiple Centers -->
+<table cellspacing="0" width="670" border="0" style="padding:1px 2px 1px 0px;background-image:url('/cwi/background.gif');">
+  <tbody>
+  <tr>
+    <td valign="top" width="140">&nbsp;</td>
+    <td class="navbckgrnd">
+      <a href="http://www.commerce.gov/" class="navbar" style="padding-left:3px;" title="Department of Commerce">DOC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.noaa.gov/" class="navbar" title="National Oceanographic and Atmospheric Administration">NOAA</a>
+    </td>
+    <td class="navbckgrnd" style="border-right:1px solid white;">
+      <a href="http://www.weather.gov/" class="navbar" title="National Weather Service">NWS</a>
+    </td>
+
+    <td class="navbckgrnd">
+      <a href="http://www.ncep.noaa.gov/" class="navbar" style="padding-left:4px;" title="National Centers for Environmental Prediction">NCEP Centers:</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.aviationweather.gov/" class="navbar" title="Aviation Weather Center">AWC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.cpc.ncep.noaa.gov/" class="navbar" title="Climate Prediction Center">CPC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.emc.ncep.noaa.gov/" class="navbar" title="Environmental Modeling Center">EMC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.nco.ncep.noaa.gov/" class="navbar" title="NCEP Central Operations">NCO</a>
+    </td>
+
+    <td class="navbckgrnd">
+      <a href="http://www.nhc.noaa.gov/" class="navbar" title="National Hurricane Center">NHC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.opc.ncep.noaa.gov/" class="navbar" title="Ocean Prediction Center">OPC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.spc.noaa.gov/" class="navbar" title="Storm Prediction Center">SPC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.swpc.noaa.gov/" class="navbar" title="Space Weather Prediction Center">SWPC</a>
+    </td>
+    <td class="navbckgrnd">
+      <a href="http://www.wpc.ncep.noaa.gov/" class="navbar" title="Weather Prediction Center">WPC</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<!-- End of code for the navigation strip with links to multiple Centers -->
+
+
+    </tbody>
+  </table>
+  <!-- End Header -->
+  <!-- Begin Content Body-->
+  <table cellSpacing="0" cellPadding="4" border="0" width="670"
+         summary="Table is for layout only.">
+    <tbody>
+      <tr valign="top">
+        <td valign="top" width="130">
+          <table cellspacing="1" cellpadding="0" width="130" border="0">
+ <tbody>
+   <tr valign="top">
+    <td class="searchinput" align="left" colspan="2">
+      <form method="post" action="http://forecast.weather.gov/zipcity.php">
+        <div id="Layer2" style="position:absolute; width:200px;  height:115px; z-index:2; visibility: hidden">
+          Search by city or zip code. Press enter or select the go button to submit request</div>
+        <span class="yellow"><label for="city_state">Local forecast by<br />&quot;City, St&quot;</label></span><br />
+        <input type="text" id="city_state" name="inputstring" size="8" value="City, St" onfocus="this.value='';"/>
+        <input type="submit" name="Go2" value="Go" />
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td class="searchinput" align="left" colspan="2">
+      <form method="get" action="http://search.usa.gov/search" style="margin-bottom:0; margin-top:0;">
+        <label for="Search"><span class="yellow">Search&nbsp;NCEP</span></label>
+        <input type="hidden" name="affiliate" value="ncep.noaa.gov" />
+        <input type="hidden" name="v:sources" value="firstgov-affiliates-search" />
+        <input type="hidden" name="v:project" value="firstgov" />
+        <input name="query" type="text" value="" size="8" maxlength="256" id="Search" />
+        <input type="submit" value="Go"  />
+      </form>
+    </td>
+  </tr>
+  <!--<tr>
+    <div style="border:1px solid white;text-align:center;width:95%;">
+      <span class="white">
+        <a href="http://www.ncep.noaa.gov/newsletter">NCEP Quarterly<br/>Newsletter</a>
+      </span>
+    </div>
+  </tr>-->
+  <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <hr width="90%"/>
+        <div style="text-align:center;">
+          <span class="yellow"><a href="http://www.ncep.noaa.gov/newsletter/">NCEP Quarterly Newsletter</a></span>
+        </div>
+        <hr width="90%"/>
+        <span class="yellow">Current Hazards</span><br />
+        &nbsp;&nbsp;<a href="http://www.spc.noaa.gov/products/wwa/">Watches/Warnings</a><br />
+        &nbsp;&nbsp;<a href="http://www.spc.noaa.gov/products/">Outlooks</a><br />
+        &nbsp;&nbsp;<a href="https://www.weather.gov/alerts/">National</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Current Conditions</span><br />
+        &nbsp;&nbsp;<a href="http://www.nws.noaa.gov/observations.html">Observations</a><br />
+        &nbsp;&nbsp;<a href="https://www.star.nesdis.noaa.gov/GOES/GOES16_FullDisk_Band.php?band=GEOCOLOR&length=96/">Satellite Images</a><br />
+        &nbsp;&nbsp;<a href="http://radar.weather.gov/">Radar Imagery</a><br />
+        &nbsp;&nbsp;<a href="http://www.nws.noaa.gov/om/water/hsd_products.shtml">Lakes &amp; Rivers</a><br />
+        &nbsp;&nbsp;<a href="http://www.swpc.noaa.gov/">Space Weather</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Unified Surface Analysis</span><br />
+        &nbsp;&nbsp;<a href="http://www.opc.ncep.noaa.gov/">Northern<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hemisphere<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Surface<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis</a><br />
+        &nbsp;&nbsp;<a href="http://www.opc.ncep.noaa.gov/Loops/">Product Loops</a><br />
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Environmental Models</span><br />
+        &nbsp;&nbsp;<a href="http://www.nco.ncep.noaa.gov/pmb/products/">Product Info</a><br />
+        &nbsp;&nbsp;<a href="http://www.nco.ncep.noaa.gov/pmb/nwprod/prodstat/">Current Status</a><br />
+        &nbsp;&nbsp;<a href="http://mag.ncep.noaa.gov/">Model Analyses<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp; Guidance</a>
+      </td>
+    </tr>        
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Forecasts</span><br />
+        &nbsp;&nbsp;<a href="http://www.wpc.ncep.noaa.gov/noaa/noaa.gif">Current</a><br />
+        &nbsp;&nbsp;<a href="http://www.cpc.ncep.noaa.gov/products/predictions/610day/">6 to 10 Day</a><br />
+        &nbsp;&nbsp;<a href="http://aviationweather.gov/">Aviation</a><br />
+        &nbsp;&nbsp;<a href="http://www.nhc.noaa.gov/">Hurricane</a><br />
+        &nbsp;&nbsp;<a href="http://www.opc.ncep.noaa.gov/">Marine</a><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nhc.noaa.gov/marine_forecasts.shtml">Tropical Marine</a><br />
+        &nbsp;&nbsp;<a href="http://www.spc.noaa.gov/products/fire_wx/">Fire Weather</a><br />
+        &nbsp;&nbsp;<a href="http://www.ncep.noaa.gov/nationalmaps/">Forecast Maps</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Climate</span><br />
+        &nbsp;&nbsp;<a href="http://www.cpc.ncep.noaa.gov/">Climate Prediction</a><br />
+        &nbsp;&nbsp;<a href="http://www.ncdc.noaa.gov/oa/ncdc.html">Climate Archives</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Weather Safety</span><br />
+        &nbsp;&nbsp;<a href="https://www.weather.gov/stormready/">Storm Ready</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">NOAA</span><br />
+        &nbsp;&nbsp;<a href="https://library.noaa.gov/">Central Library</a><br />
+        &nbsp;&nbsp;<a href="http://www.photolib.noaa.gov/">Photo Library</a><br />
+        &nbsp;&nbsp;<a href="http://www.noaa.gov/NOAA-Communications">Public Affairs</a><br />
+        &nbsp;&nbsp;<a href="https://www.usajobs.gov/">Employment</a><br />
+        &nbsp;&nbsp;<a href="http://www.noaa.gov/education">Education<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources</a><br />        
+        &nbsp;&nbsp;<a href="https://www.instagram.com/noaa/">Image of the Day</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">About Us</span><br />
+        &nbsp;&nbsp;<a href="http://www.ncep.noaa.gov/mission/">Our Mission</a><br />
+        &nbsp;&nbsp;<a href="http://www.ncep.noaa.gov/about/">The Centers</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <span class="yellow">Contact Us</span><br />
+        &nbsp;&nbsp;<a href="http://www.ncep.noaa.gov/mail_dataquestions/">Data Questions</a><br />
+        &nbsp;&nbsp;<a href="/mail_webmaster/">Website Questions</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="white" id="menuitem" colspan="2">
+        <hr />
+        <a href="http://www.usa.gov/"><img src="/cwi/usagov_logo_color_110w.gif" alt="USA.gov is the U.S. government's official web portal to all federal, state and local government web resources and services." width="110" height="30" border="0" /></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+        </td>
+        <td valign="top" width="540">
+          <a name="contents"></a>
+          <table cellpadding="0" cellspacing="0" border="0" width="100%"
+       summary="Table is for layout only.">
+  <tbody>
+<!-- Begin Body Content -->
+  <tr valign="top">
+  <td>
+    <a href="http://www.ncep.noaa.gov/">NCEP Home</a> &gt; <a href="/">NCO Home</a> &gt; <a href="/pmb/">Implementation and Data Services Branch</a> &gt; Critical Weather Day Status
+    <h2 align="center">NCEP Critical Weather Day Status</h2>
+    <table width="500" border="0" cellpadding="0" cellspacing="0"
+           summary="Table is for layout only.">
+      <tr>
+        <td align="center" bgcolor="yellow">  
+          <hr width="100%">
+          <font size="5"><b>Critical Weather Day Has Been Declared</b></font>
+          <hr width="100%">
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+        <br>
+        <br>
+START: 1300Z Mon March 30 2020
+<br
+END: 1200Z Thur April 02 2020
+<br>
+<br>
+
+WHO: NCEP, NWSTG, NCF, Southern Region, and Eastern Region
+<br>
+<br>
+
+REASON: Hurricane Dorian and associated impacts to the Southeast coast. 
+<br>
+
+        </td>
+      </tr>
+    </table>
+
+<!-- End Body Content -->
+  </td>
+  </tr>
+  </tbody>
+</table>
+
+          <br>
+          <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr>
+    <td colspan="3"><hr /></td>
+  </tr>
+  <tr valign="top">
+    <td class="gray">
+      <a href="http://www.noaa.gov/"><span class="gray">NOAA/</span></a>
+      <a href="http://www.nws.noaa.gov/"><span class="gray">National Weather Service</span></a><br />
+      <a href="http://www.ncep.noaa.gov/"><span class="gray">National Centers for Environmental Prediction</span></a><br />
+      5830 University Research Court<br/>
+      College Park, MD 20740<br/>
+      <a href="/mail_webmaster/"><span class="gray">NCEP Internet Services Team</span></a><br />
+    </td>
+    <td>
+      <a href="http://www.weather.gov/disclaimer.php">
+      <span class="gray">Disclaimer</span></a>
+      <br />
+      <a href="http://www.weather.gov/credits.php">
+      <span class="gray">Credits</span></a>
+      <br />
+      <a href="http://www.weather.gov/glossary/">
+      <span class="gray">Glossary</span></a>
+    </td>
+    <td align="right">
+      <a href="http://www.weather.gov/privacy.php">
+      <span class="gray">Privacy Policy</span></a>
+      <br />
+      <a href="http://www.weather.gov/admin.php">
+      <span class="gray">About Us</span></a>
+      <br />
+      <a href="http://www.weather.gov/careers.php">
+      <span class="gray">Career Opportunities</span></a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+          <table cellspacing="0" cellpadding="0" width="100%" border="0"
+                 summary="Table is for layout only.">
+            <tbody>
+            <tr valign="top">
+              <td class="gray" colspan="3">
+                Page last modified: Tuesday, 03-Sep-2019 11:37:15 UTC
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- End Content Body -->
+</body>
+</html>
