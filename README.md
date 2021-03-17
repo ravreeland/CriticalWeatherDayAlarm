@@ -14,7 +14,8 @@ I made this alarm to automate checking whether a critical weather day was declar
 
 ## Requirements ##
 - Windows 10
-- twisted
-- wxPython
-- win10toast
+- twisted 21.2.0
+- wxPython 4.1.1
+- win10toast 0.9
+- pywin32 300 (required by win10toast)
 
